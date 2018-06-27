@@ -1,0 +1,89 @@
+body {
+  font: 100% "Libre Franklin", sans-serif;
+}
+
+.logo-container {
+  padding: 20px 0;
+}
+
+ul.nav {
+  background-color: #000000;
+}
+ul.nav li.nav-item a.nav-link {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+ul.nav li.nav-item:last-child {
+  background-color: #003366;
+}
+
+.breadcrumbs-container {
+  padding: 10px 10px;
+}
+.breadcrumbs-container .container-fluid .row .col-6 i {
+  position: relative;
+  top: 2px;
+}
+.breadcrumbs-container .container-fluid .row .col-6 a {
+  vertical-align: middle;
+  font-size: 10px;
+  color: #000000;
+}
+
+.product-container {
+  padding-bottom: 50px;
+}
+.product-container .picture-container .choice-window {
+  padding-top: 50px;
+}
+.product-container .picture-container .choice-window a {
+  color: #000000;
+}
+.product-container .picture-container .choice-window a img {
+  padding: 0 10px;
+}
+.product-container .picture-container .choice-window a img.chosen {
+  border: solid 1px;
+}
+.product-container .text-container .product-title {
+  font-weight: bold;
+  padding: 20px 0;
+}
+.product-container .text-container .product-price, .product-container .text-container .product-quantity, .product-container .text-container .product-addcart {
+  padding-bottom: 20px;
+}
+.product-container .text-container .product-price {
+  font-weight: bold;
+}
+.product-container .text-container .product-addcart button {
+  text-transform: uppercase;
+}
+.product-container .text-container .product-addcart button i {
+  padding-left: 5px;
+}
+.product-container .text-container .expandedtext {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+.product-container .text-container .expandedtext .container-fluid {
+  padding: 10px 20px;
+}
+.product-container .text-container .expandedtext .container-fluid div.card-header {
+  width: 100%;
+  padding: 0px;
+}
+.product-container .text-container .expandedtext .container-fluid div.card-header button {
+  font-size: 12px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.product-container .text-container .expandedtext .container-fluid div.card-header button i {
+  padding-right: 5px;
+}
+.product-container .text-container .expandedtext .container-fluid .card-body {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=main.css.map */
