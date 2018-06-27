@@ -50,8 +50,6 @@ $('#product-addtocart').bind('click',
 		productcolor =	$('#product-title-color').html();
 		quantity 	=	$('#productquantity').val();
 
-		console.log(productcolor);
-
 		$('#cartmsg-quantity').html(quantity);
 		$('#cartmsg-productname').html(productname);
 		$('#cartmsg-producttype').html(productcolor);
